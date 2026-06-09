@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FiArrowRight, FiChevronLeft, FiChevronRight, FiStar } from 'react-icons/fi'
 import { FaBoxOpen, FaBalanceScale, FaShieldAlt, FaTruck, FaTools } from 'react-icons/fa'
 import './Home.css'
+import SEO from '../components/SEO'
 
 /* ---------- DATA ---------- */
 const heroSlides = [
@@ -163,6 +164,7 @@ function StatsSection() {
 
   return (
     <section className="stats-section" ref={ref}>
+      <SEO title="Home" url="/" />
       <div className="stats-bg" />
       <div className="container">
         <div className="stats-grid">

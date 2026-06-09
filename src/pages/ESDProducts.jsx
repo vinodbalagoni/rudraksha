@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Products.css'
+import SEO from '../components/SEO'
 
 const esdProducts = [
   { name: 'ESD GLOVES', desc: 'Anti-static hand protection', img: '/images/products/esd/gloves.png' },
@@ -18,6 +19,7 @@ const esdProducts = [
 export default function ESDProducts() {
   return (
     <main className="products-page">
+      <SEO title="ESD Products" url="/esd" />
       <div className="page-header">
         <div className="container">
           <h1>ESD Products</h1>

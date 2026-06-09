@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Products.css'
+import SEO from '../components/SEO'
 
 const flooringProducts = [
   { name: 'EPOXY FLOORING AND ESD FLOORING', desc: 'Durable anti-static industrial floor solutions', img: '/images/products/other/flooring.png' },
@@ -8,6 +9,7 @@ const flooringProducts = [
 export default function IndustrialFlooring() {
   return (
     <main className="products-page">
+      <SEO title="Industrial Flooring" url="/flooring" />
       <div className="page-header">
         <div className="container">
           <h1>Epoxy & ESD Flooring</h1>

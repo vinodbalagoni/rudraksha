@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
 import './Legal.css'
+import SEO from '../components/SEO'
 
 export default function Privacy() {
   return (
     <main>
+      <SEO title="Privacy" url="/privacy" />
       <div className="page-header">
         <div className="container">
           <h1>Privacy Policy</h1>

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FiMail, FiPhone, FiMapPin, FiClock, FiSend } from 'react-icons/fi'
 import { FaWhatsapp } from 'react-icons/fa'
 import './Contact.css'
+import SEO from '../components/SEO'
 
 const contactInfo = [
   {
@@ -49,6 +50,7 @@ export default function Contact() {
 
   return (
     <main>
+      <SEO title="Contact" url="/contact" />
       <div className="page-header">
         <div className="container">
           <h1>Contact Us</h1>

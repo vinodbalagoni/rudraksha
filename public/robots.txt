@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rudrakshaenterprises.com/sitemap.xml
+Sitemap: https://www.rudrakshaenterprise.in/sitemap.xml

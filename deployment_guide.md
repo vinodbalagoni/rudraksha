@@ -23,9 +23,9 @@ We have pre-configured routing fallbacks and search indexing files in your codeb
 
 ## 🌐 Step 1: Adjusting Your Custom Domain (If Different)
 
-In our configurations, we used **`https://rudrakshaenterprises.com`** as the default domain. If your registered domain is different (e.g., `rudraksha.in` or `rudrakshaenterprises.in`):
+In our configurations, we used **`https://www.rudrakshaenterprise.in`** as the default domain. If your registered domain is different (e.g., `rudraksha.in` or `rudrakshaenterprises.in`):
 
-1. **Open** `index.html` and search/replace the `https://rudrakshaenterprises.com` occurrences in:
+1. **Open** `index.html` and search/replace the `https://www.rudrakshaenterprise.in` occurrences in:
    - The `<link rel="canonical" href="..." />` tag.
    - The Open Graph metadata (`og:url`, `og:image`).
    - The Twitter card metadata (`twitter:url`, `twitter:image`).
@@ -44,12 +44,12 @@ Here are the typical DNS records to map. Log in, locate your domain's **DNS Zone
 ### A. If Hosting on Netlify:
 1. Set up an **A Record**:
    - **Type**: `A`
-   - **Name/Host**: `@` (represents your root domain, e.g. `rudrakshaenterprises.com`)
+   - **Name/Host**: `@` (represents your root domain, e.g. `www.rudrakshaenterprise.in`)
    - **Value/Points To**: `75.2.60.5` (Netlify's load balancer IP)
    - **TTL**: Default (e.g. `3600` or `14400`)
 2. Set up a **CNAME Record**:
    - **Type**: `CNAME`
-   - **Name/Host**: `www` (handles `www.rudrakshaenterprises.com`)
+   - **Name/Host**: `www` (handles `www.www.rudrakshaenterprise.in`)
    - **Value/Points To**: `your-subdomain.netlify.app` (your unique Netlify app URL)
 
 ### B. If Hosting on Vercel:
@@ -92,18 +92,18 @@ Once DNS records are configured, go to your hosting dashboard to complete the ma
 
 ### ⚡ On Netlify:
 1. Go to **Site Configuration** > **Domain management**.
-2. Click **Add a domain** and type your domain (e.g. `rudrakshaenterprises.com`).
+2. Click **Add a domain** and type your domain (e.g. `www.rudrakshaenterprise.in`).
 3. Netlify will check DNS. Once verified, scroll to the bottom to the **HTTPS** section.
 4. Click **Verify DNS configuration** or **Provision Let's Encrypt Certificate**. Netlify will automatically generate a free SSL certificate. It will also handle redirecting `http` to `https` and `www` to non-`www` (or vice-versa) automatically.
 
 ### 🔺 On Vercel:
 1. Go to your project **Settings** > **Domains**.
-2. Add `rudrakshaenterprises.com`. Vercel will ask you if you want to also add the `www` version and redirect to it (highly recommended!).
+2. Add `www.rudrakshaenterprise.in`. Vercel will ask you if you want to also add the `www` version and redirect to it (highly recommended!).
 3. Vercel automatically checks DNS status and generates an SSL certificate once mapped.
 
 ### 🐙 On GitHub Pages:
 1. Inside your repository, go to **Settings** > **Pages**.
-2. Under **Custom domain**, type your domain (e.g. `rudrakshaenterprises.com`) and click **Save**. This will automatically create a `CNAME` file in your main directory.
+2. Under **Custom domain**, type your domain (e.g. `www.rudrakshaenterprise.in`) and click **Save**. This will automatically create a `CNAME` file in your main directory.
 3. Once GitHub verifies the DNS, check the box for **Enforce HTTPS** (this may take up to 24 hours to become clickable while they provision the Let's Encrypt certificate).
 
 ### 🖥️ On Hostinger / cPanel:

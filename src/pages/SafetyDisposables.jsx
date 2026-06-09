@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Products.css'
+import SEO from '../components/SEO'
 
 const safetyProducts = [
   { name: 'APRONS', desc: 'Industrial protective aprons', img: '/images/products/safety/apron.webp' },
@@ -25,6 +26,7 @@ const safetyProducts = [
 export default function SafetyDisposables() {
   return (
     <main className="products-page">
+      <SEO title="Safety Disposables" url="/safety-disposables" />
       <div className="page-header">
         <div className="container">
           <h1>Safety Disposables</h1>

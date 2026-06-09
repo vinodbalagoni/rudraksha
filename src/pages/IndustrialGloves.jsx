@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Products.css' // Reusing the same minimalist grid styles
+import SEO from '../components/SEO'
 
 const gloveProducts = [
   { name: 'COTTON GLOVES', desc: 'Industrial grade protective handwear', img: '/images/products/gloves/cotton_gloves.webp' },
@@ -16,6 +17,7 @@ const gloveProducts = [
 export default function IndustrialGloves() {
   return (
     <main className="products-page">
+      <SEO title="Industrial Gloves" url="/industrial-gloves" />
       <div className="page-header">
         <div className="container">
           <h1>Industrial Gloves</h1>

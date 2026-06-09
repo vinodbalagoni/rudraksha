@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Products.css'
+import SEO from '../components/SEO'
 
 const biomassProducts = [
   { name: 'BIOMASS BRIQUETTES FOR BOILER', desc: 'Eco-friendly high-calorie fuel solutions', img: '/images/products/other/biomass.png' },
@@ -8,6 +9,7 @@ const biomassProducts = [
 export default function BiomassBriquettes() {
   return (
     <main className="products-page">
+      <SEO title="Biomass Briquettes" url="/biomass-briquettes" />
       <div className="page-header">
         <div className="container">
           <h1>Biomass Briquettes</h1>

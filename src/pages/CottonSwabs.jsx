@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Products.css'
+import SEO from '../components/SEO'
 
 const swabProducts = [
   { name: 'CLEANROOM COTTON SWAB FOR CAMERA LENS', desc: 'Precision cleaning for optical lenses', img: '/images/products/other/cotton_swab.png' },
@@ -8,6 +9,7 @@ const swabProducts = [
 export default function CottonSwabs() {
   return (
     <main className="products-page">
+      <SEO title="Cotton Swabs" url="/cotton-swab" />
       <div className="page-header">
         <div className="container">
           <h1>Cotton Swabs</h1>

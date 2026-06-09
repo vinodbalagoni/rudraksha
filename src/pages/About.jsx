@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { FiArrowRight, FiCheckCircle } from 'react-icons/fi'
 import { FaShieldAlt, FaBoxOpen, FaTruck, FaUsers, FaMedal } from 'react-icons/fa'
 import './About.css'
+import SEO from '../components/SEO'
 
 const milestones = [
   { year: '2018', title: 'Company Founded', desc: 'Rudraksha Enterprises established as a partnership firm in Chennai.' },
@@ -21,6 +22,7 @@ const values = [
 export default function About() {
   return (
     <main>
+      <SEO title="About" url="/about" />
       {/* Page Header */}
       <div className="page-header">
         <div className="container">

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Products.css'
+import SEO from '../components/SEO'
 
 const palletProducts = [
   { name: 'Heat Treated Pallet', desc: 'ISPM-15 compliant wooden pallets for export', img: '/images/products/other/heat_treated_pallet.webp' },
@@ -11,6 +12,7 @@ const palletProducts = [
 export default function Pallets() {
   return (
     <main className="products-page">
+      <SEO title="Pallets" url="/pallet" />
       <div className="page-header">
         <div className="container">
           <h1>Industrial Pallets</h1>

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Products.css'
+import SEO from '../components/SEO'
 
 const packagingProducts = [
   { name: 'Stretch Film', desc: 'SIZE : UPTO 1000MM', img: '/images/products/stretch_film.webp' },
@@ -45,6 +46,7 @@ const packagingProducts = [
 export default function Products() {
   return (
     <main className="products-page">
+      <SEO title="Products" url="/products" />
       <div className="page-header">
         <div className="container">
           <h1>Packaging</h1>

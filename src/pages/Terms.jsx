@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
 import './Legal.css'
+import SEO from '../components/SEO'
 
 export default function Terms() {
   return (
     <main>
+      <SEO title="Terms" url="/terms" />
       <div className="page-header">
         <div className="container">
           <h1>Terms and Conditions</h1>

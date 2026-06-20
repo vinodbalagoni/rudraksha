@@ -54,8 +54,8 @@ export default function Privacy() {
 
             <h2>9. Contact Us</h2>
             <p>If you have questions about this Privacy Policy, please contact us at:<br />
-            <a href="mailto:Nag.rudhraksha@gmail.com">Nag.rudhraksha@gmail.com</a><br />
-            +91 9994 272 200</p>
+            <a href="mailto:rudraksha@rudrakshaenterprise.in">rudraksha@rudrakshaenterprise.in</a><br />
+            +91 9100040086</p>
           </div>
         </div>
       </section>

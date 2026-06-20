@@ -41,17 +41,12 @@ export default function About() {
           <div className="grid-2">
             <div className="about-img-wrap">
               <img src="/images/about_company.png" alt="About Rudraksha Enterprises" className="about-img" />
-              <div className="about-img-badge">
-                <FaMedal className="about-badge-icon" />
-                <strong>Since 2018</strong>
-                <span>Industry Leader</span>
-              </div>
             </div>
             <div className="about-text">
               <span className="section-label">ABOUT COMPANY</span>
               <h2 className="section-title">RUDRAKSHA ENTERPRISES</h2>
               <p style={{color: 'var(--gray-500)', lineHeight: '1.8', marginBottom: '16px'}}>
-                Rudraksha Enterprises has been surpassing its clients expectations since its inception in 2018. Undue attention to quality control and management has made us leading manufacturer, supplier and trader of Disposable Safety Items and Packaging Materials.
+                Rudraksha Enterprises is a leading manufacturer, supplier and trader of Disposable Safety Items and Packaging Materials. Undue attention to quality control and management has made us trusted by businesses across India and internationally.
               </p>
                 We serve a diverse range of industries including manufacturing, healthcare, pharmaceuticals, electronics, and clean rooms. Our products conform to international quality standards and are trusted by businesses across India and internationally.
 

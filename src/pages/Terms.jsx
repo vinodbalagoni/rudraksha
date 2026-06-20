@@ -47,7 +47,7 @@ export default function Terms() {
             <p>These terms shall be governed by and construed in accordance with the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in Chennai, Tamil Nadu.</p>
 
             <h2>9. Contact</h2>
-            <p>For any questions regarding these Terms and Conditions, please contact us at <a href="mailto:Nag.rudhraksha@gmail.com">Nag.rudhraksha@gmail.com</a></p>
+            <p>For any questions regarding these Terms and Conditions, please contact us at <a href="mailto:rudraksha@rudrakshaenterprise.in">rudraksha@rudrakshaenterprise.in</a></p>
           </div>
         </div>
       </section>

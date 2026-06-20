@@ -18,36 +18,16 @@ const packagingProducts = [
   { name: 'STEEL STRAP', desc: 'Industrial strapping', img: '/images/products/steel_strap.webp' },
   { name: 'PP & PET STRAP CLIP', desc: 'Strapping accessories', img: '/images/products/strap_clip.webp' },
   { name: 'POLYESTER COMPOSITE STRAP', desc: 'Flexible strapping', img: '/images/products/polyester_composite_strap.webp' },
-  { name: 'POLYESTER COMPOSITE STRAP BUCKLE', desc: 'Fastening hardware', img: '/images/products/composite_strap_buckle.webp' },
-  { name: 'PAPER DUNNAGE AIR BAG', desc: 'Cargo protection', img: '/images/products/paper_dunnage_bag.webp' },
-  { name: 'PP DUNNAGE AIR BAG', desc: 'Cargo protection', img: '/images/products/pp_dunnage_bag.webp' },
-  { name: 'CONTAINER RATCHET BELT', desc: 'Load securing', img: '/images/products/container_ratchet_belt.webp' },
-  { name: 'CARGO LASHING BELT', desc: 'Heavy load securing', img: '/images/products/cargo_lashing_belt.webp' },
-  { name: 'RATCHET LASHING BELT', desc: 'General securing', img: '/images/products/ratchet_lashing_belt.webp' },
-  { name: 'WOVEN STRAP', desc: 'High-load strap', img: '/images/products/woven_strap.webp' },
-  { name: 'POLYESTER LASHING STRAP', desc: 'Soft lashing', img: '/images/products/polyester_lashing_strap.webp' },
-  { name: 'HEAVY DUTY BUCKLE', desc: 'High-strength buckle', img: '/images/products/heavy_duty_buckle.webp' },
   { name: 'CONTAINER DESICCANT', desc: 'Moisture control', img: '/images/products/container_desiccant.webp' },
   { name: 'SILICA GEL', desc: 'Moisture control', img: '/images/products/silica_gel.webp' },
-  { name: 'PP STRAP TENSIONER SET', desc: 'Manual tool', img: '/images/products/pp_strap_tensioner.webp' },
-  { name: 'CORD STRAP TENSIONER', desc: 'Manual tool', img: '/images/products/cord_strap_tensioner.webp' },
-  { name: 'STEEL STRAP TENSIONER', desc: 'Industrial tool', img: '/images/products/steel_strap_tensioner.webp' },
-  { name: 'BATTERY OPERATED TOOL', desc: 'Power tool', img: '/images/products/battery_operated_tool.webp' },
-  { name: 'TAPE DISPENSER', desc: 'Handheld tool', img: '/images/products/tape_dispenser.webp' },
-  { name: 'STRETCH FILM DISPENSER', desc: 'Handheld tool', img: '/images/products/stretch_film_dispenser.webp' },
-  { name: 'PET STRAP DISPENSER', desc: 'Mobile cart', img: '/images/products/pet_strap_dispenser.webp' },
-  { name: 'AIR INFULATOR DUNNAGE AIR BAG', desc: 'Pneumatic tool', img: '/images/products/dunnage_inflator.webp' },
   { name: 'MASKING TAPE', desc: 'Painter\'s/Paper tape', img: '/images/products/masking_tape.jpg' },
-  { name: 'PLASTIC PALLET', desc: 'Material handling', img: '/images/products/plastic_pallet.jpg' },
-  { name: 'HEAT TREATED PALLET', desc: 'Logistical base', img: '/images/products/heat_treated_pallet.jpg' },
-  { name: 'WAREHOUSE STEEL PALLET', desc: 'Heavy-duty handling', img: '/images/products/steel_pallet.jpg' },
 ]
 
 export default function Products() {
   return (
     <main className="products-page">
       <SEO title="Products" url="/products" />
-      <div className="page-header">
+      <div className="page-header" data-product="packaging">
         <div className="container">
           <h1>Packaging</h1>
           <div className="breadcrumb">

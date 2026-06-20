@@ -98,7 +98,7 @@ const whyUs = [
   {
     icon: <FaBalanceScale />,
     title: 'Dedicated Customer Support',
-    desc: 'Our customer support team is here to assist you at every step. Whether you have questions about our products or need assistance with an order.',
+    desc: 'Our customer support team is here to assist you at every step. GST Number: 36EKBPR5926M1ZJ',
   },
 ]
 
@@ -292,14 +292,14 @@ export default function Home() {
             <div className="trust-card__icon"><FaBoxOpen /></div>
             <div>
               <h3>Nature of Business</h3>
-              <p>Exporter and Manufacturer</p>
+              <p>Supplier and Manufacturer</p>
             </div>
           </div>
           <div className="trust-card">
             <div className="trust-card__icon"><FaBalanceScale /></div>
             <div>
               <h3>Legal Status of Firm</h3>
-              <p>Partnership Firm</p>
+              <p>Proprietor</p>
             </div>
           </div>
         </div>
@@ -313,7 +313,7 @@ export default function Home() {
               <span className="section-label">ABOUT COMPANY</span>
               <h2 className="section-title">RUDRAKSHA ENTERPRISES</h2>
               <p className="section-subtitle">
-                Rudraksha Enterprises has been surpassing its clients expectations since its inception in 2018. Undue attention to quality control and management has made us leading manufacturer, supplier and trader of Disposable Safety Items and Packaging Materials.
+                Rudraksha Enterprises is a leading manufacturer, supplier and trader of Disposable Safety Items and Packaging Materials. Undue attention to quality control and management has made us trusted by businesses across India and internationally.
               </p>
               <br />
               <p style={{color: 'var(--gray-500)', fontSize: '15px', lineHeight: '1.7'}}>
@@ -326,10 +326,6 @@ export default function Home() {
             </div>
             <div className="home-about__img">
               <img src="/images/about_company.png" alt="Rudraksha Enterprises - About Us" />
-              <div className="home-about__badge">
-                <span className="home-about__badge-num">6+</span>
-                <span>Years of Excellence</span>
-              </div>
             </div>
           </div>
         </div>

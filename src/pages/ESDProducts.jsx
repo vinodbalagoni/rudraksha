@@ -13,14 +13,14 @@ const esdProducts = [
   { name: 'SOLDERING TIPS', desc: 'High-quality industrial soldering components', img: '/images/products/esd/solder_tips.png' },
   { name: 'ESD APRON, SLIPPER AND CAP', desc: 'Complete anti-static apparel', img: '/images/products/esd/apparel.png' },
   { name: 'ESD Bags', desc: 'Shielding bags for electronics', img: '/images/products/esd/bags.png' },
-  { name: 'ESD KAPTON, CAUTION, GRID TAPE', desc: 'Specialized ESD marking tapes', img: '/images/products/esd/tapes.png' },
+  { name: 'ESD KAPTON, CAUTION, GRID TAPE', desc: 'Specialized ESD marking tapes', img: '/images/products/esd/tap.png' },
 ]
 
 export default function ESDProducts() {
   return (
     <main className="products-page">
       <SEO title="ESD Products" url="/esd" />
-      <div className="page-header">
+      <div className="page-header" data-product="esd">
         <div className="container">
           <h1>ESD Products</h1>
           <div className="breadcrumb">

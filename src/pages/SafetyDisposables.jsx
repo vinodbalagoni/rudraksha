@@ -4,7 +4,6 @@ import SEO from '../components/SEO'
 
 const safetyProducts = [
   { name: 'APRONS', desc: 'Industrial protective aprons', img: '/images/products/safety/apron.webp' },
-  { name: 'VELCRO AT THE WAIST AND CHEST STRAPS', desc: 'Secure fit industrial safety wear', img: '/images/products/safety/velcro_waist.png' },
   { name: 'VELCRO AT THE WAIST LEVEL', desc: 'Adjustable safety gear', img: '/images/products/safety/velcro_waist_2.webp' },
   { name: 'VELCRO AT FRONT OPENING', desc: 'Quick-access industrial wear', img: '/images/products/safety/velcro_front.webp' },
   { name: 'MACHINE CORDED AROUND THE NECK STYLE', desc: 'Secure neck-style protective wear', img: '/images/products/safety/corded_neck.png' },
@@ -13,9 +12,6 @@ const safetyProducts = [
   { name: 'SAFETY GOGGLES', desc: 'Eye protection from dust and chemicals', img: '/images/products/safety/goggles.webp' },
   { name: 'SAFETY SHIELDS', desc: 'Full face protection shields', img: '/images/products/safety/shields.webp' },
   { name: 'BODY HARNESS', desc: 'Fall protection for height work', img: '/images/products/safety/harness.webp' },
-  { name: 'HOOKS', desc: 'Industrial safety connectors and hooks', img: '/images/products/safety/hooks.webp' },
-  { name: 'CONNECTORS', desc: 'Load-rated industrial connectors', img: '/images/products/safety/connectors.webp' },
-  { name: 'STYLISH & DURABLE INDUSTRIAL SHOES', desc: 'Premium safety footwear', img: '/images/products/safety/shoes_industrial.png' },
   { name: 'STYLISH & EASY WEAR SAFETY SHOES', desc: 'Comfort-focused safety shoes', img: '/images/products/safety/shoes_easywear.png' },
   { name: 'PREMIUM & CLASSIC SAFETY SHOES', desc: 'All-day durability footwear', img: '/images/products/safety/shoes_premium.webp' },
   { name: 'GUM BOOT', desc: 'Waterproof protective boots', img: '/images/products/safety/gum_boot.webp' },
@@ -27,7 +23,7 @@ export default function SafetyDisposables() {
   return (
     <main className="products-page">
       <SEO title="Safety Disposables" url="/safety-disposables" />
-      <div className="page-header">
+      <div className="page-header" data-product="safety">
         <div className="container">
           <h1>Safety Disposables</h1>
           <div className="breadcrumb">

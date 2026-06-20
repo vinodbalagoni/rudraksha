@@ -10,7 +10,7 @@ export default function CottonSwabs() {
   return (
     <main className="products-page">
       <SEO title="Cotton Swabs" url="/cotton-swab" />
-      <div className="page-header">
+      <div className="page-header" data-product="packaging">
         <div className="container">
           <h1>Cotton Swabs</h1>
           <div className="breadcrumb">

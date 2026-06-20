@@ -15,8 +15,8 @@ const contactInfo = [
   {
     icon: <FiMail />,
     title: 'Email',
-    lines: ['Nag.rudhraksha@gmail.com'],
-    href: 'mailto:Nag.rudhraksha@gmail.com',
+    lines: ['rudraksha@rudrakshaenterprise.in'],
+    href: 'mailto:rudraksha@rudrakshaenterprise.in',
   },
   {
     icon: <FiMapPin />,

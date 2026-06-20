@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { FiMenu, FiX, FiChevronDown, FiMail, FiPhone } from 'react-icons/fi'
-import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa'
 import './Navbar.css'
 
 const products = [
@@ -9,9 +9,8 @@ const products = [
   { label: 'Industrial Gloves', path: '/industrial-gloves' },
   { label: 'Safety Disposables', path: '/safety-disposables' },
   { label: 'ESD Products', path: '/esd' },
-  { label: 'Cleanroom Cotton Swabs', path: '/cotton-swab' },
-  { label: 'Biomass Briquettes', path: '/biomass-briquettes' },
-  { label: 'Epoxy & ESD Flooring', path: '/flooring' },
+  { label: 'T-Shirts', path: '/t-shirts' },
+  { label: 'Consumables', path: '/consumables' },
   { label: 'Pallets', path: '/pallet' },
 ]
 
@@ -48,18 +47,18 @@ export default function Navbar() {
       <div className="topbar">
         <div className="container topbar__inner">
           <div className="topbar__contact">
-            <a href="mailto:Nag.rudhraksha@gmail.com" className="topbar__link">
-              <FiMail /> Nag.rudhraksha@gmail.com
+            <a href="mailto:rudraksha@rudrakshaenterprise.in" className="topbar__link">
+              <FiMail /> rudraksha@rudrakshaenterprise.in
             </a>
             <a href="tel:+919100040086" className="topbar__link">
               <FiPhone /> +91 9100040086
             </a>
           </div>
           <div className="topbar__social">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FaFacebook /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaTwitter /></a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><FaYoutube /></a>
+            <a href="https://www.instagram.com/rudra_kshaenterprises?utm_source=qr&igsh=MTFnOGp6MTVib2ZubQ==" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram /></a>
+            <a href="https://x.com/Rudraksha91" target="_blank" rel="noopener noreferrer" aria-label="X"><FaTwitter /></a>
+            <a href="https://www.linkedin.com/in/rudraksha-enterprises-33a395418?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
+            <a href="https://youtube.com/@rudrakshaenterprises-d4y?si=-zmxFlS9ddrarcbQ" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><FaYoutube /></a>
           </div>
         </div>
       </div>

@@ -212,6 +212,62 @@ input, textarea, select {
   background: linear-gradient(135deg, rgba(188,159,77,0.15) 0%, transparent 60%);
 }
 
+/* Product-specific backgrounds */
+.page-header[data-product="packaging"] {
+  background-image: url('/images/backgrounds/packaging-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.page-header[data-product="packaging"]::before {
+  background: linear-gradient(135deg, rgba(11,13,23,0.7) 0%, rgba(11,13,23,0.5) 60%);
+}
+
+.page-header[data-product="gloves"] {
+  background-image: url('/images/backgrounds/gloves-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.page-header[data-product="gloves"]::before {
+  background: linear-gradient(135deg, rgba(11,13,23,0.7) 0%, rgba(11,13,23,0.5) 60%);
+}
+
+.page-header[data-product="safety"] {
+  background-image: url('/images/backgrounds/safety-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.page-header[data-product="safety"]::before {
+  background: linear-gradient(135deg, rgba(11,13,23,0.7) 0%, rgba(11,13,23,0.5) 60%);
+}
+
+.page-header[data-product="esd"] {
+  background-image: url('/images/backgrounds/esd-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.page-header[data-product="esd"]::before {
+  background: linear-gradient(135deg, rgba(11,13,23,0.7) 0%, rgba(11,13,23,0.5) 60%);
+}
+
+.page-header[data-product="pallets"] {
+  background-image: url('/images/backgrounds/pallets-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.page-header[data-product="pallets"]::before {
+  background: linear-gradient(135deg, rgba(11,13,23,0.7) 0%, rgba(11,13,23,0.5) 60%);
+}
+
 .page-header .container {
   position: relative;
   z-index: 1;

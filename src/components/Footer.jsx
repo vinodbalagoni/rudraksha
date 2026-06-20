@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube, FaWhatsapp } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube, FaWhatsapp, FaInstagram } from 'react-icons/fa'
 import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi'
 import './Footer.css'
 
@@ -18,13 +18,13 @@ export default function Footer() {
               />
             </Link>
             <p className="footer__about">
-              Rudraksha Enterprises has been surpassing its clients expectations since its inception. Undue attention to quality control and management has made us a leading manufacturer, supplier and trader of Disposable Safety Items and Packaging Materials. <em>Reliable. Scalable. Ready.</em>
+              Rudraksha Enterprises is a leading manufacturer, supplier and trader of Disposable Safety Items and Packaging Materials. Undue attention to quality control and management has made us trusted by businesses across India and internationally. <em>Reliable. Scalable. Ready.</em>
             </p>
             <div className="footer__social">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FaFacebook /></a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaTwitter /></a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><FaYoutube /></a>
+              <a href="https://www.instagram.com/rudra_kshaenterprises?utm_source=qr&igsh=MTFnOGp6MTVib2ZubQ==" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram /></a>
+              <a href="https://x.com/Rudraksha91" target="_blank" rel="noopener noreferrer" aria-label="X"><FaTwitter /></a>
+              <a href="https://www.linkedin.com/in/rudraksha-enterprises-33a395418?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
+              <a href="https://youtube.com/@rudrakshaenterprises-d4y?si=-zmxFlS9ddrarcbQ" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><FaYoutube /></a>
               <a href="https://wa.me/919100040086" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><FaWhatsapp /></a>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Footer() {
             <ul className="footer__contact-list">
               <li>
                 <FiMail />
-                <a href="mailto:Nag.rudhraksha@gmail.com">Nag.rudhraksha@gmail.com</a>
+                <a href="mailto:rudraksha@rudrakshaenterprise.in">rudraksha@rudrakshaenterprise.in</a>
               </li>
               <li>
                 <FiPhone />
@@ -70,11 +70,11 @@ export default function Footer() {
             <div className="footer__info-card">
               <div className="footer__info-item">
                 <span className="footer__info-label">Nature of Business</span>
-                <span className="footer__info-value">Exporter and Manufacturer</span>
+                <span className="footer__info-value">Supplier and Manufacturer</span>
               </div>
               <div className="footer__info-item">
                 <span className="footer__info-label">Legal Status</span>
-                <span className="footer__info-value">Partnership Firm</span>
+                <span className="footer__info-value">Proprietor</span>
               </div>
               <div className="footer__info-item">
                 <span className="footer__info-label">Tagline</span>

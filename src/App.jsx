@@ -10,9 +10,8 @@ import Products from './pages/Products'
 import IndustrialGloves from './pages/IndustrialGloves'
 import SafetyDisposables from './pages/SafetyDisposables'
 import ESDProducts from './pages/ESDProducts'
-import CottonSwabs from './pages/CottonSwabs'
-import BiomassBriquettes from './pages/BiomassBriquettes'
-import IndustrialFlooring from './pages/IndustrialFlooring'
+import TShirts from './pages/TShirts'
+import Consumables from './pages/Consumables'
 import Pallets from './pages/Pallets'
 import Contact from './pages/Contact'
 import Terms from './pages/Terms'
@@ -36,9 +35,8 @@ function App() {
         <Route path="/industrial-gloves" element={<IndustrialGloves />} />
         <Route path="/safety-disposables" element={<SafetyDisposables />} />
         <Route path="/esd" element={<ESDProducts />} />
-        <Route path="/cotton-swab" element={<CottonSwabs />} />
-        <Route path="/biomass-briquettes" element={<BiomassBriquettes />} />
-        <Route path="/flooring" element={<IndustrialFlooring />} />
+        <Route path="/t-shirts" element={<TShirts />} />
+        <Route path="/consumables" element={<Consumables />} />
         <Route path="/pallet" element={<Pallets />} />
 
         <Route path="/contact" element={<Contact />} />

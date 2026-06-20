@@ -5,7 +5,7 @@ export default function SEO({ title, description, keywords, url }) {
   const siteTitle = "Rudraksha Enterprises";
   const fullTitle = title ? `${title} | ${siteTitle}` : `${siteTitle} - Reliable. Scalable. Ready.`;
   const metaDescription = description || "Leading manufacturer and exporter of premium packaging materials, safety disposables, industrial gloves, and logistics freight services.";
-  const metaKeywords = keywords || "packaging solutions, safety disposables, industrial gloves, freight services, ESD products, biomass briquettes, epoxy flooring, Rudraksha Enterprises, Hyderabad, packaging manufacturer";
+  const metaKeywords = keywords || "packaging solutions, safety disposables, industrial gloves, freight services, ESD products, Rudraksha Enterprises, Hyderabad, packaging manufacturer";
   const fullUrl = url ? `https://www.rudrakshaenterprise.in${url}` : "https://www.rudrakshaenterprise.in/";
 
   return (

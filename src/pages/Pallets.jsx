@@ -4,8 +4,7 @@ import SEO from '../components/SEO'
 
 const palletProducts = [
   { name: 'Heat Treated Pallet', desc: 'ISPM-15 compliant wooden pallets for export', img: '/images/products/other/heat_treated_pallet.webp' },
-  { name: 'Plastic Pallet', desc: 'Durable HDPE pallets for hygienic storage', img: '/images/products/other/plastic_pallet.png' },
-  { name: 'Export Steel Pallet', desc: 'Heavy-duty steel pallets for international transit', img: '/images/products/other/export_steel_pallet.webp' },
+  { name: 'Plastic Pallet', desc: 'Durable HDPE pallets for hygienic storage', img: '/images/products/plastic_pallet.jpg' },
   { name: 'Warehouse Steel Pallet', desc: 'Galvanized industrial storage basis', img: '/images/products/other/warehouse_steel_pallet.webp' },
 ]
 
@@ -13,7 +12,7 @@ export default function Pallets() {
   return (
     <main className="products-page">
       <SEO title="Pallets" url="/pallet" />
-      <div className="page-header">
+      <div className="page-header" data-product="pallets">
         <div className="container">
           <h1>Industrial Pallets</h1>
           <div className="breadcrumb">

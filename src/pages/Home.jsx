@@ -98,7 +98,7 @@ const whyUs = [
   {
     icon: <FaBalanceScale />,
     title: 'Dedicated Customer Support',
-    desc: 'Our customer support team is here to assist you at every step. GST Number: 36EKBPR5926M1ZJ',
+    desc: 'Our customer support team is here to assist you at every step. Whether you have questions about our products or need assistance with an order.',
   },
 ]
 

@@ -77,6 +77,10 @@ export default function Footer() {
                 <span className="footer__info-value">Proprietor</span>
               </div>
               <div className="footer__info-item">
+                <span className="footer__info-label">GST Number</span>
+                <span className="footer__info-value">36EKBPR5926M1ZJ</span>
+              </div>
+              <div className="footer__info-item">
                 <span className="footer__info-label">Tagline</span>
                 <span className="footer__info-value">Reliable. Scalable. Ready.</span>
               </div>

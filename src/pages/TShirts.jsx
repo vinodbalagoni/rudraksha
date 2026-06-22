@@ -5,6 +5,12 @@ import SEO from '../components/SEO'
 const tShirtProducts = [
   { name: 'T-SHIRT WITH COMPANY LOGO', desc: 'Premium branded t-shirts with company logo', img: '/images/products/t_shirt_with_company_logo.png' },
   { name: 'CUSTOMIZED T-SHIRT', desc: 'Custom printed t-shirts tailored to your needs', img: '/images/products/customized_t_shirt.png' },
+  { name: 'POLO SHIRT WITH COMPANY LOGO', desc: 'Professional polo shirts with embroidered company branding', img: '/images/products/polo_shirt_company_logo.png' },
+  { name: 'ROUND NECK T-SHIRT WITH EMBROIDERED LOGO', desc: 'Classic round neck tees with embroidered company logo', img: '/images/products/round_neck_embroidered_logo.png' },
+  { name: 'V-NECK PROMOTIONAL T-SHIRT', desc: 'Stylish v-neck t-shirts for promotional campaigns', img: '/images/products/v_neck_promotional_shirt.png' },
+  { name: 'SPORTS/ATHLETIC T-SHIRT WITH BRANDING', desc: 'High-performance athletic wear with company branding', img: '/images/products/sports_athletic_t_shirt_branding.png' },
+  { name: 'OVERSIZED T-SHIRT WITH PROMOTIONAL PRINT', desc: 'Trendy oversized t-shirts with bold promotional prints', img: '/images/products/oversized_promotional_print.png' },
+  { name: 'BUTTON-UP SHIRT WITH COMPANY BRANDING', desc: 'Professional button-up shirts with embroidered logos', img: '/images/products/button_up_company_branding.png' },
 ]
 
 export default function TShirts() {
